@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'squid-font';
+    src: url('../fonts/Game Of Squids.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'squid-font', serif;
+}
+
+.text-neon {
+    text-shadow: 0 0 30px #E93E7D;
+}
+
+html {
+    background-color: #271c29;
+    color: white;
+}
+
+header {
+    background-color: black;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+.primary-text{
+    color: #E93E7D;
+}
+
+#user-name-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+button {
+    font-size: 1.2rem;
+    border: unset;
+    color: white;
+    background-color: #E93E7D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+button:hover {
+    background-color: #74aa9b;
+}
+
+input[type="text"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.hidden {
+    display: none !important;
+}

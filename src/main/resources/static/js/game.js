@@ -1,0 +1,5 @@
+const lobbySound = new Audio('sounds/lobby.mp3')
+const redLightSound = new Audio('sounds/red-light.mp3')
+const greenLightSound = new Audio('sounds/green-light.mp3')
+const gunSound = new Audio('sounds/gun.mp3')
+const winSound = new Audio('sounds/win.mp3')
